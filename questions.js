@@ -1,330 +1,331 @@
 const questions = [
     {
         id: 1,
-        question: "Khởi nghiệp là gì?",
+        question: "Một startup công nghệ đang phát triển một ứng dụng AI cho thị trường Việt Nam. Trong bối cảnh cạnh tranh gay gắt và nguồn lực hạn chế, chiến lược khởi nghiệp nào sau đây là phù hợp nhất?",
         options: [
-            "Thành lập một công ty đã có sẵn mô hình kinh doanh.",
-            "Tạo ra một doanh nghiệp mới với ý tưởng sáng tạo.",
-            "Mua lại một doanh nghiệp đang hoạt động.",
-            "Đầu tư vào thị trường chứng khoán."
+            "Tập trung phát triển sản phẩm hoàn thiện với đầy đủ tính năng trước khi ra mắt thị trường.",
+            "Áp dụng phương pháp Lean Startup với MVP, thu thập phản hồi người dùng và điều chỉnh linh hoạt.",
+            "Đầu tư mạnh vào marketing để xây dựng thương hiệu trước khi có sản phẩm.",
+            "Tìm kiếm đối tác nước ngoài để nhượng quyền công nghệ sẵn có."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 2,
-        question: "Yếu tố nào sau đây quan trọng nhất đối với một người khởi nghiệp?",
+        question: "Trong quá trình gọi vốn Series A, một startup cần ưu tiên yếu tố nào để thuyết phục nhà đầu tư?",
         options: [
-            "Vốn đầu tư lớn.",
-            "Ý tưởng độc đáo và khả năng thực thi.",
-            "Bằng cấp cao.",
-            "Mối quan hệ rộng."
+            "Kế hoạch tài chính chi tiết và dự báo doanh thu 5 năm.",
+            "Bằng chứng về Product-Market Fit và khả năng tăng trưởng nhanh.",
+            "Danh sách đội ngũ quản lý có kinh nghiệm từ các tập đoàn lớn.",
+            "Chiến lược marketing và ngân sách quảng cáo."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 3,
-        question: "Mục tiêu chính của việc lập kế hoạch kinh doanh là gì?",
+        question: "Khi xây dựng kế hoạch kinh doanh cho một startup fintech, yếu tố quan trọng nhất cần tập trung là gì?",
         options: [
-            "Thu hút vốn đầu tư.",
-            "Xác định rõ ràng mục tiêu và chiến lược kinh doanh.",
-            "Dự đoán chính xác doanh thu trong tương lai.",
-            "Tuyển dụng nhân viên giỏi."
+            "Phân tích chi tiết về quy định pháp lý và tuân thủ trong lĩnh vực tài chính.",
+            "Chiến lược tạo lợi thế cạnh tranh thông qua công nghệ và trải nghiệm người dùng.",
+            "Kế hoạch huy động vốn từ các quỹ đầu tư mạo hiểm.",
+            "Chiến lược marketing để thu hút khách hàng mới."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 4,
-        question: "\"Thị trường mục tiêu\" là gì?",
+        question: "Một startup B2B cung cấp giải pháp phần mềm quản lý doanh nghiệp nên xác định thị trường mục tiêu như thế nào?",
         options: [
-            "Toàn bộ người tiêu dùng trên thị trường.",
-            "Nhóm khách hàng tiềm năng mà doanh nghiệp hướng đến.",
-            "Các đối thủ cạnh tranh trên thị trường.",
-            "Các nhà đầu tư tiềm năng."
+            "Tất cả các doanh nghiệp vừa và nhỏ trong khu vực.",
+            "Doanh nghiệp có nhu cầu cụ thể về chuyển đổi số và khả năng chi trả phù hợp.",
+            "Các doanh nghiệp đã có hệ thống phần mềm cũ.",
+            "Các công ty khởi nghiệp mới thành lập."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 5,
-        question: "\"Vốn khởi nghiệp\" là gì?",
+        question: "Một startup đang phát triển nền tảng thanh toán điện tử cần cân nhắc chiến lược vốn nào để tối ưu hóa tăng trưởng và kiểm soát rủi ro?",
         options: [
-            "Tiền tiết kiệm cá nhân.",
-            "Khoản tiền cần thiết để bắt đầu một doanh nghiệp.",
-            "Lợi nhuận từ hoạt động kinh doanh.",
-            "Khoản vay từ ngân hàng."
+            "Sử dụng hoàn toàn vốn tự có để duy trì quyền kiểm soát tuyệt đối.",
+            "Kết hợp vốn góp từ nhà đầu tư chiến lược và quỹ đầu tư mạo hiểm để tận dụng mạng lưới và kinh nghiệm.",
+            "Vay ngân hàng với lãi suất ưu đãi để tránh pha loãng cổ phần.",
+            "Huy động vốn cộng đồng thông qua ICO/STO."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 6,
-        question: "Hình thức gọi vốn nào phổ biến trong giai đoạn đầu khởi nghiệp?",
+        question: "Trong bối cảnh khủng hoảng kinh tế, startup nên áp dụng chiến lược gọi vốn nào?",
         options: [
-            "Phát hành cổ phiếu.",
-            "Vay vốn ngân hàng.",
-            "Gọi vốn từ người thân, bạn bè (family and friends).",
-            "Phát hành trái phiếu."
+            "Tạm dừng hoạt động để bảo toàn vốn hiện có.",
+            "Tìm kiếm các nhà đầu tư thiên thần với điều khoản ưu đãi.",
+            "Tối ưu hóa burn rate và tập trung vào các chỉ số unit economics để thu hút nhà đầu tư thông minh.",
+            "Chuyển sang mô hình kinh doanh mới hoàn toàn."
         ],
         correctAnswer: 2
     },
     {
         id: 7,
-        question: "\"MVP\" trong khởi nghiệp là viết tắt của cụm từ nào?",
+        question: "Khi phát triển MVP cho một ứng dụng fintech, đâu là yếu tố quan trọng nhất cần tập trung?",
         options: [
-            "Most Valuable Product.",
-            "Minimum Viable Product.",
-            "Market Validation Process.",
-            "Major Venture Project."
+            "Tính năng thanh toán cơ bản và bảo mật cao.",
+            "Đầy đủ tính năng như các đối thủ cạnh tranh.",
+            "Giao diện người dùng đẹp và hiện đại.",
+            "Tích hợp nhiều phương thức thanh toán."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 8,
-        question: "Thất bại trong khởi nghiệp nên được nhìn nhận như thế nào?",
+        question: "Khi startup gặp thất bại trong việc thâm nhập thị trường ban đầu, chiến lược pivot nào sau đây hiệu quả nhất?",
         options: [
-            "Một dấu chấm hết cho sự nghiệp.",
-            "Một bài học kinh nghiệm quý giá.",
-            "Một lý do để từ bỏ ước mơ.",
-            "Một điều đáng xấu hổ."
+            "Giảm giá sản phẩm để cạnh tranh.",
+            "Phân tích dữ liệu người dùng, điều chỉnh giá trị cốt lõi và thị trường mục tiêu.",
+            "Tăng cường đầu tư vào marketing.",
+            "Thay đổi hoàn toàn mô hình kinh doanh."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 9,
-        question: "Yếu tố nào giúp tạo dựng thương hiệu mạnh cho doanh nghiệp khởi nghiệp?",
+        question: "Một startup SaaS B2B cần xây dựng chiến lược định giá, yếu tố nào quan trọng nhất?",
         options: [
-            "Quảng cáo rầm rộ.",
-            "Chất lượng sản phẩm/dịch vụ tốt và sự hài lòng của khách hàng.",
-            "Giá cả cạnh tranh.",
-            "Mạng lưới phân phối rộng khắp."
+            "Giá thấp hơn đối thủ cạnh tranh.",
+            "Mô hình định giá dựa trên giá trị và ROI cho khách hàng doanh nghiệp.",
+            "Các gói dịch vụ đa dạng.",
+            "Chiến lược freemium để thu hút người dùng."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 10,
-        question: "\"Tinh thần khởi nghiệp\" (entrepreneurial mindset) bao gồm những đặc điểm nào?",
+        question: "Trong quá trình phát triển sản phẩm công nghệ, startup nên áp dụng phương pháp quản lý dự án nào?",
         options: [
-            "Sáng tạo, dám nghĩ dám làm, và khả năng thích ứng.",
-            "Bảo thủ, ngại thay đổi, và sợ rủi ro.",
-            "Làm việc theo khuôn mẫu, tuân thủ quy trình có sẵn.",
-            "Chỉ tập trung vào lợi nhuận trước mắt."
+            "Agile Scrum với sprint ngắn và linh hoạt điều chỉnh theo phản hồi thị trường.",
+            "Waterfall để đảm bảo chất lượng sản phẩm.",
+            "Kanban để theo dõi tiến độ công việc.",
+            "Phương pháp truyền thống với kế hoạch chi tiết từ đầu."
         ],
         correctAnswer: 0
     },
     {
         id: 11,
-        question: "Chuyển đổi số là gì?",
+        question: "Một doanh nghiệp truyền thống muốn thực hiện chuyển đổi số toàn diện, đâu là chiến lược phù hợp nhất?",
         options: [
-            "Quá trình thay đổi hình thức các sản phẩm truyền thống.",
-            "Quá trình ứng dụng công nghệ số vào mọi lĩnh vực trong doanh nghiệp và xã hội.",
-            "Quá trình phát triển các phần mềm quản lý doanh nghiệp.",
-            "Quá trình đào tạo nhân lực trong các ngành công nghệ."
+            "Thay thế toàn bộ hệ thống cũ bằng giải pháp số hiện đại.",
+            "Áp dụng từng bước có lộ trình, ưu tiên các quy trình tạo giá trị cao và đào tạo nhân sự.",
+            "Thuê đơn vị tư vấn bên ngoài thực hiện toàn bộ quá trình.",
+            "Chờ đợi công nghệ mới ổn định hơn."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 12,
-        question: "Công nghệ nào là nền tảng quan trọng của chuyển đổi số?",
+        question: "Trong chiến lược chuyển đổi số, việc xây dựng hạ tầng công nghệ nên tuân theo nguyên tắc nào?",
         options: [
-            "Máy tính cá nhân.",
-            "Internet of Things (IoT).",
-            "Internet.",
-            "Phần mềm văn phòng."
+            "Đầu tư toàn bộ vào hệ thống tự phát triển.",
+            "Tích hợp các giải pháp đám mây với kiến trúc microservices linh hoạt và khả năng mở rộng.",
+            "Sử dụng hoàn toàn các giải pháp có sẵn trên thị trường.",
+            "Duy trì hệ thống legacy và nâng cấp dần dần."
         ],
-        correctAnswer: 2
+        correctAnswer: 0
     },
     {
         id: 13,
-        question: "Lợi ích của chuyển đổi số là gì?",
+        question: "Khi triển khai dự án IoT trong nhà máy thông minh, yếu tố nào cần được ưu tiên hàng đầu?",
         options: [
-            "Tăng chi phí hoạt động.",
-            "Giảm khả năng cạnh tranh.",
-            "Cải thiện hiệu quả công việc.",
-            "Giới hạn khả năng sáng tạo."
+            "Số lượng thiết bị kết nối.",
+            "Khả năng phân tích dữ liệu thời gian thực và tích hợp với hệ thống vận hành hiện có.",
+            "Chi phí triển khai thấp.",
+            "Giao diện người dùng thân thiện."
         ],
-        correctAnswer: 2
+        correctAnswer: 0
     },
     {
         id: 14,
-        question: "Cloud computing (Điện toán đám mây) là gì?",
+        question: "Doanh nghiệp cần xây dựng chiến lược đám mây (cloud strategy) như thế nào để tối ưu hóa chi phí và hiệu suất?",
         options: [
-            "Quản lý phần mềm trên máy tính cá nhân.",
-            "Lưu trữ và xử lý dữ liệu qua các máy chủ từ xa qua internet.",
-            "Phát triển phần mềm trên nền tảng di động.",
-            "Kết nối các máy tính trong một mạng LAN."
+            "Sử dụng một nhà cung cấp đám mây duy nhất.",
+            "Áp dụng mô hình đa đám mây (multi-cloud) với chiến lược phân bổ tải và dự phòng.",
+            "Duy trì toàn bộ hệ thống on-premise.",
+            "Thuê ngoài toàn bộ quản lý hạ tầng."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 15,
-        question: "\"Big Data\" ám chỉ điều gì?",
+        question: "Trong dự án phân tích dữ liệu lớn (Big Data), chiến lược nào đảm bảo giá trị kinh doanh tốt nhất?",
         options: [
-            "Số lượng lớn các tài liệu giấy.",
-            "Dữ liệu quá lớn và phức tạp mà các hệ thống quản lý dữ liệu truyền thống không thể xử lý.",
-            "Các cuộc khảo sát có số liệu lớn.",
-            "Các bộ dữ liệu trong máy tính cá nhân."
+            "Thu thập càng nhiều dữ liệu càng tốt.",
+            "Xác định rõ mục tiêu kinh doanh, thu thập và phân tích dữ liệu có chọn lọc để tạo insight.",
+            "Đầu tư vào công nghệ phân tích tiên tiến nhất.",
+            "Thuê đội ngũ data scientist đông đảo."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 16,
-        question: "Chuyển đổi số có thể mang lại lợi ích gì cho doanh nghiệp?",
+        question: "Khi triển khai AI trong doanh nghiệp, đâu là yếu tố then chốt để đảm bảo thành công?",
         options: [
-            "Giảm chi phí sản xuất.",
-            "Tăng sự hài lòng của khách hàng.",
-            "Tất cả các đáp án trên."
+            "Sử dụng các thuật toán AI tiên tiến nhất.",
+            "Xây dựng lộ trình ứng dụng AI rõ ràng, tập trung vào các use case có giá trị cao và khả thi.",
+            "Đầu tư lớn vào phần cứng chuyên dụng.",
+            "Thuê các chuyên gia AI hàng đầu."
         ],
-        correctAnswer: 2
+        correctAnswer: 0
     },
     {
         id: 17,
-        question: "Công nghệ nào không phải là một phần của Chuyển đổi số?",
+        question: "Trong quá trình số hóa quy trình kinh doanh, phương pháp nào hiệu quả nhất?",
         options: [
-            "Trí tuệ nhân tạo (AI).",
-            "Công nghệ blockchain.",
-            "Máy photocopy.",
-            "Tự động hóa quy trình bằng robot (RPA)."
+            "Số hóa toàn bộ quy trình hiện có.",
+            "Tái thiết kế quy trình (BPR) kết hợp với công nghệ số để tối ưu hóa hiệu quả.",
+            "Áp dụng RPA cho các quy trình thủ công.",
+            "Thuê đơn vị tư vấn thực hiện."
         ],
-        correctAnswer: 2
+        correctAnswer: 0
     },
     {
         id: 18,
-        question: "Ứng dụng của AI trong chuyển đổi số là gì?",
+        question: "Khi ứng dụng AI vào phân tích dự đoán (predictive analytics), yếu tố nào quyết định độ chính xác của mô hình?",
         options: [
-            "Tăng tốc độ kết nối internet.",
-            "Phân tích và dự đoán xu hướng thị trường.",
-            "Chỉ giúp giải trí cho người dùng.",
-            "Lưu trữ dữ liệu trên cloud."
+            "Số lượng dữ liệu huấn luyện.",
+            "Chất lượng và độ phù hợp của dữ liệu, kết hợp với việc lựa chọn và tinh chỉnh mô hình.",
+            "Sức mạnh tính toán của hệ thống.",
+            "Số lượng biến số trong mô hình."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 19,
-        question: "Mô hình kinh doanh nào là kết quả của chuyển đổi số?",
+        question: "Chiến lược nào hiệu quả nhất để phát triển nền tảng kinh doanh số (digital platform)?",
         options: [
-            "Kinh doanh truyền thống dựa trên cửa hàng.",
-            "Kinh doanh dựa trên nền tảng số và thương mại điện tử.",
-            "Kinh doanh chỉ qua điện thoại.",
-            "Kinh doanh chỉ qua thư từ."
+            "Tập trung vào số lượng người dùng.",
+            "Xây dựng hệ sinh thái với giá trị cốt lõi rõ ràng và chiến lược mở rộng network effect.",
+            "Đầu tư mạnh vào marketing.",
+            "Cung cấp nhiều tính năng đa dạng."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 20,
-        question: "Blockchain được sử dụng chủ yếu để làm gì?",
+        question: "Khi triển khai blockchain trong doanh nghiệp, yếu tố nào cần được ưu tiên?",
         options: [
-            "Lưu trữ video.",
-            "Bảo mật và xác minh giao dịch.",
-            "Tăng tốc độ internet.",
-            "Chạy phần mềm trên điện thoại."
+            "Sử dụng công nghệ blockchain mới nhất.",
+            "Xác định rõ use case với giá trị thực tế và xây dựng POC có tính mở rộng.",
+            "Tham gia nhiều consortium blockchain.",
+            "Phát hành token riêng."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 21,
-        question: "Mô hình Lean Startup tập trung vào điều gì?",
+        question: "Trong bối cảnh một startup công nghệ đang phát triển sản phẩm AI, mô hình Lean Startup nên được áp dụng như thế nào để tối ưu hóa quá trình phát triển sản phẩm và thích nghi với thị trường?",
         options: [
-            "Phát triển sản phẩm hoàn thiện ngay từ đầu.",
-            "Tối ưu hóa nguồn lực tài chính.",
-            "Xây dựng sản phẩm tối thiểu và học hỏi từ thị trường.",
-            "Mở rộng quy mô nhanh chóng."
+            "Tập trung vào việc phát triển thuật toán AI hoàn chỉnh trước khi ra mắt thị trường để đảm bảo chất lượng sản phẩm.",
+            "Ưu tiên tối ưu hóa chi phí vận hành và tìm kiếm đầu tư mạo hiểm ngay từ đầu.",
+            "Xây dựng MVP với các tính năng AI cơ bản, thu thập phản hồi người dùng thực tế, và liên tục cải tiến dựa trên dữ liệu thị trường.",
+            "Đầu tư mạnh vào marketing và xây dựng thương hiệu để tạo nhận diện trên thị trường AI."
         ],
         correctAnswer: 2
     },
     {
         id: 22,
-        question: "\"Pivot\" trong khởi nghiệp có nghĩa là gì?",
+        question: "Một startup fintech đang gặp khó khăn trong việc thâm nhập thị trường với giải pháp thanh toán B2B. Trong trường hợp này, chiến lược pivot nào sau đây là phù hợp nhất?",
         options: [
-            "Thay đổi hoàn toàn mô hình kinh doanh dựa trên phản hồi thị trường.",
-            "Tăng cường quảng cáo.",
-            "Tuyển dụng thêm nhân sự.",
-            "Vay thêm vốn."
+            "Chuyển đổi sang mô hình B2C với giải pháp ví điện tử cho người dùng cá nhân, tận dụng công nghệ và kinh nghiệm hiện có.",
+            "Tăng cường đầu tư vào marketing và giảm phí dịch vụ để cạnh tranh.",
+            "Mở rộng đội ngũ bán hàng và hỗ trợ khách hàng.",
+            "Tìm kiếm thêm vốn đầu tư để duy trì mô hình hiện tại."
         ],
         correctAnswer: 0
     },
     {
         id: 23,
-        question: "Yếu tố nào KHÔNG phải là thách thức khi khởi nghiệp?",
+        question: "Trong bối cảnh phát triển một startup SaaS B2B, yếu tố nào sau đây KHÔNG phải là thách thức chính cần ưu tiên giải quyết trong giai đoạn đầu?",
         options: [
-            "Thiếu vốn.",
-            "Cạnh tranh gay gắt.",
-            "Nhu cầu thị trường ổn định.",
-            "Thay đổi công nghệ nhanh."
+            "Xây dựng product-market fit và validating giá trị sản phẩm.",
+            "Tối ưu hóa chi phí thu hút khách hàng (CAC) và vòng đời giá trị khách hàng (LTV).",
+            "Thiết kế giao diện người dùng cao cấp và tính năng phụ trợ.",
+            "Xây dựng quy trình onboarding và hỗ trợ khách hàng hiệu quả."
         ],
         correctAnswer: 2
     },
     {
         id: 24,
-        question: "Crowdfunding là hình thức gọi vốn nào?",
+        question: "Một startup phát triển sản phẩm phần cứng IoT đang cân nhắc sử dụng crowdfunding. Trong trường hợp này, chiến lược crowdfunding nào sau đây là hiệu quả nhất?",
         options: [
-            "Huy động vốn từ cộng đồng qua nền tảng trực tuyến.",
-            "Vay ngân hàng.",
-            "Đầu tư mạo hiểm.",
-            "Phát hành trái phiếu."
+            "Sử dụng nền tảng Kickstarter với chiến lược pre-order và early bird rewards để validate nhu cầu thị trường và huy động vốn sản xuất.",
+            "Tạo chiến dịch vay vốn cộng đồng với lãi suất hấp dẫn.",
+            "Bán cổ phần nhỏ lẻ cho nhà đầu tư cá nhân qua nền tảng equity crowdfunding.",
+            "Phát hành token riêng và huy động vốn qua ICO."
         ],
         correctAnswer: 0
     },
     {
         id: 25,
-        question: "Công nghệ 5G ảnh hưởng thế nào đến chuyển đổi số?",
+        question: "Một doanh nghiệp sản xuất đang xây dựng chiến lược nhà máy thông minh dựa trên công nghệ 5G. Đâu là cách tiếp cận tối ưu để tận dụng tiềm năng của 5G trong chuyển đổi số?",
         options: [
-            "Tăng tốc độ truyền dữ liệu và kết nối thiết bị.",
-            "Giảm chi phí phần cứng.",
-            "Hạn chế sử dụng IoT.",
-            "Tập trung vào lưu trữ dữ liệu cá nhân."
+            "Triển khai mạng 5G riêng (private 5G) kết hợp với edge computing để tối ưu hóa độ trễ và bảo mật cho ứng dụng IoT trong sản xuất.",
+            "Sử dụng mạng 5G công cộng để giảm chi phí đầu tư hạ tầng.",
+            "Tập trung vào việc nâng cấp thiết bị đầu cuối tương thích 5G.",
+            "Ưu tiên phát triển ứng dụng di động 5G cho nhân viên."
         ],
         correctAnswer: 0
     },
     {
         id: 26,
-        question: "Ví dụ về ứng dụng IoT trong doanh nghiệp?",
+        question: "Một doanh nghiệp logistics đang xây dựng hệ thống quản lý kho thông minh. Đâu là giải pháp IoT tối ưu nhất để nâng cao hiệu quả vận hành?",
         options: [
-            "Hệ thống quản lý kho tự động.",
-            "Phần mềm kế toán.",
-            "Website bán hàng.",
-            "Email marketing."
+            "Triển khai hệ thống tích hợp RFID, cảm biến môi trường, và AGV (Automated Guided Vehicles) được điều khiển bởi AI để tự động hóa toàn bộ quy trình từ nhập kho đến xuất kho.",
+            "Sử dụng phần mềm quản lý kho trên cloud với tính năng báo cáo real-time.",
+            "Lắp đặt camera giám sát và hệ thống bảo mật.",
+            "Triển khai hệ thống mã vạch và máy quét cầm tay."
         ],
         correctAnswer: 0
     },
     {
         id: 27,
-        question: "Đặc điểm của Blockchain?",
+        question: "Một công ty chuỗi cung ứng đang xem xét áp dụng blockchain để tăng tính minh bạch và truy xuất nguồn gốc. Đâu là chiến lược triển khai blockchain phù hợp nhất?",
         options: [
-            "Tính phi tập trung.",
-            "Tốc độ xử lý cao.",
-            "Dễ dàng sửa đổi dữ liệu.",
-            "Không cần bảo mật."
+            "Xây dựng private blockchain consortium với các đối tác chính, tích hợp smart contracts để tự động hóa quy trình xác thực và thanh toán, đồng thời đảm bảo khả năng mở rộng và tương tác với các hệ thống legacy.",
+            "Sử dụng public blockchain để tối đa hóa tính minh bạch.",
+            "Triển khai nhanh một giải pháp blockchain có sẵn trên thị trường.",
+            "Phát triển cryptocurrency riêng cho hệ thống thanh toán."
         ],
         correctAnswer: 0
     },
     {
         id: 28,
-        question: "Phát biểu đúng về thương mại điện tử (E-commerce)?",
+        question: "Một doanh nghiệp bán lẻ truyền thống muốn chuyển đổi sang mô hình omnichannel e-commerce. Chiến lược nào sau đây sẽ mang lại hiệu quả tối ưu?",
         options: [
-            "Chỉ bao gồm bán hàng qua website.",
-            "Là mua bán hàng hóa/dịch vụ qua Internet.",
-            "Không liên quan đến thanh toán trực tuyến.",
-            "Chỉ dành cho doanh nghiệp lớn."
+            "Tập trung xây dựng website bán hàng và ứng dụng di động riêng biệt.",
+            "Phát triển hệ sinh thái tích hợp online-to-offline (O2O) với hệ thống quản lý đơn hàng thống nhất, tích hợp dữ liệu khách hàng đa kênh, và trải nghiệm mua sắm liền mạch giữa các kênh bán hàng.",
+            "Đầu tư vào nền tảng marketplace của bên thứ ba.",
+            "Chuyển hoàn toàn sang mô hình bán hàng trực tuyến."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 29,
-        question: "Lợi ích của Digital Marketing so với truyền thống?",
+        question: "Một startup B2B SaaS cần xây dựng chiến lược digital marketing với ngân sách hạn chế. Phương pháp nào sau đây sẽ mang lại ROI tốt nhất?",
         options: [
-            "Đo lường hiệu quả chi tiết.",
-            "Tiếp cận ít đối tượng hơn.",
-            "Chi phí cao hơn.",
-            "Không thể tương tác với khách hàng."
+            "Triển khai chiến lược content marketing tích hợp với marketing tự động hóa, tập trung vào SEO, lead nurturing, và account-based marketing (ABM) để tối ưu hóa customer acquisition cost.",
+            "Đầu tư mạnh vào quảng cáo Google Ads và social media.",
+            "Thuê agency marketing chuyên nghiệp.",
+            "Tập trung vào email marketing và cold calling."
         ],
         correctAnswer: 0
     },
     {
         id: 30,
-        question: "Công cụ phân tích dữ liệu phổ biến?",
+        question: "Một công ty thương mại điện tử cần xây dựng hệ thống phân tích dữ liệu để tối ưu hóa hiệu quả kinh doanh. Giải pháp analytics nào sau đây là phù hợp nhất?",
         options: [
-            "Google Analytics.",
-            "Microsoft Word.",
-            "Adobe Photoshop.",
-            "AutoCAD."
+            "Triển khai hệ thống phân tích đa chiều tích hợp Google Analytics 4, BigQuery, và công cụ BI để theo dõi customer journey, dự đoán hành vi mua hàng, và tối ưu hóa conversion rate.",
+            "Sử dụng các công cụ báo cáo cơ bản như Google Analytics Universal.",
+            "Thuê đơn vị tư vấn phân tích dữ liệu bên ngoài.",
+            "Phát triển hệ thống phân tích riêng từ đầu."
         ],
         correctAnswer: 0
     },
@@ -348,7 +349,7 @@ const questions = [
             "Tăng số lượng giáo viên.",
             "Xây dựng thêm trường học."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 33,
@@ -403,7 +404,7 @@ const questions = [
             "Máy tính bảng.",
             "Hệ thống GPS."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
         id: 38,

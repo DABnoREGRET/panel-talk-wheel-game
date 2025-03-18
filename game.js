@@ -136,6 +136,15 @@ function animate() {
     }
 }
 
+// Shuffle array function
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 // Show question section
 document.getElementById('show-question-button').addEventListener('click', () => {
     document.getElementById('wheel-section').style.display = 'none';
@@ -157,15 +166,28 @@ document.getElementById('show-question-button').addEventListener('click', () => 
     optionsContainer.style.marginTop = '20px';
     
     if (selectedQuestion.options) {
-        selectedQuestion.options.forEach((option, index) => {
+        // Create array of option objects with original indices
+        const optionsWithIndices = selectedQuestion.options.map((option, index) => ({
+            text: option,
+            originalIndex: index
+        }));
+        
+        // Shuffle options
+        const shuffledOptions = shuffleArray([...optionsWithIndices]);
+        
+        // Store the mapping of new positions to original indices
+        selectedQuestion.shuffledMap = shuffledOptions.map(opt => opt.originalIndex);
+        
+        shuffledOptions.forEach((option, index) => {
             const button = document.createElement('button');
-            button.textContent = String.fromCharCode(65 + index) + '. ' + option;
+            button.textContent = String.fromCharCode(65 + index) + '. ' + option.text;
             button.style.display = 'block';
             button.style.margin = '10px auto';
             button.style.padding = '10px';
             button.style.width = '100%';
             button.style.textAlign = 'left';
             button.className = 'option-button';
+            button.dataset.originalIndex = option.originalIndex;
             button.onclick = () => {
                 const buttons = optionsContainer.getElementsByTagName('button');
                 for (let btn of buttons) {
@@ -217,7 +239,13 @@ document.getElementById('show-answer-button').addEventListener('click', () => {
     // Highlight correct answer if it's a multiple choice question
     if (selectedQuestion.options) {
         const buttons = document.querySelectorAll('.option-button');
-        buttons[correctAnswerIndex].classList.add('correct');
+        // Find the button with the matching original index
+        const correctButton = Array.from(buttons).find(
+            button => parseInt(button.dataset.originalIndex) === correctAnswerIndex
+        );
+        if (correctButton) {
+            correctButton.classList.add('correct');
+        }
     }
 });
 
